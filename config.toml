@@ -30,7 +30,7 @@ canonifyURLs = true
     meta_og_sitename = "Knocking on the Sky"
     meta_og_type = "website"
     meta_og_url = "https://blog.josephjtroberts.com"
-    meta_og_image = "https://photos.google.com/search/fall%20family/photo/AF1QipOkopTMXwuOObH-VJnxdJx5mRCJuvuiWwUw2kEa"
+    meta_og_image = "https://github.com/jjtroberts/blog/raw/main/static/images/knocking-on-the-sky.jpg"
     meta_og_description = "A DevSecOps Journey"
 
 [markup]
