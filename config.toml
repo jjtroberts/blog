@@ -1,0 +1,75 @@
+baseURL = "https://blog.josephjtroberts.com"
+languageCode = "en"
+title = "Knocking on the Sky"
+theme = "hugo-theme-ava"
+paginate = 7
+mainSections = "post"
+
+[languages]
+  [languages.en]
+      languageName = "English"
+
+enableEmoji = true
+enableRobotsTXT = true
+canonifyURLs = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.87.0"
+    
+[params]
+  ga_id=""
+  mainSections = ["post"]
+  disqus = "xxxxxxx"
+  
+
+  [params.meta_tags]
+    meta_description = "A DevSecOps journey"
+    meta_og_title = "Knocking on the Sky"
+    meta_og_sitename = "Knocking on the Sky"
+    meta_og_type = "website"
+    meta_og_url = "https://blog.josephjtroberts.com"
+    meta_og_image = "https://photos.google.com/search/fall%20family/photo/AF1QipOkopTMXwuOObH-VJnxdJx5mRCJuvuiWwUw2kEa"
+    meta_og_description = "A DevSecOps Journey"
+
+[markup]
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = true
+        lineNos = false
+        tabWidth = 4
+        noClasses = false
+        pygmentsUseClasses = true
+        pygmentsCodefences = true
+
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe= true   
+
+    [markup.blackFriday]
+        angledQuotes = true
+
+[[menu.main]]
+	name = "Knocks"
+	url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Archives"
+    url = "/posts/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "mailto:me@josephjtroberts.com"
+    weight = 4
+
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"

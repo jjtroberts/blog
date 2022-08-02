@@ -1,0 +1,12 @@
+[
+    {
+        "name": "GitHub",
+        "link": "https://github.com/jjtroberts/blog",
+        "html_class": "github"
+    },
+    {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/joe-roberts-2b48b641/",
+        "html_class": "linkedin"
+    }
+]
