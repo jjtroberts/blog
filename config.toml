@@ -19,7 +19,7 @@ canonifyURLs = true
     min = "0.87.0"
     
 [params]
-  ga_id=""
+  ga_id="UA-139877605-1"
   mainSections = ["post"]
   disqus = "xxxxxxx"
   
