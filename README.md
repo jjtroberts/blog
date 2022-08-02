@@ -2,11 +2,11 @@
 
 ## Installation
 ```sh
-git submodule add https://github.com/calintat/minimal.git themes/minimal
+git submodule add https://github.com/jmau111/hugo-theme-ava.git themes/hugo-theme-ava
 $ git submodule init
 $ git submodule update
-$ git submodule update --remote themes/minimal
-$ cp themes/minimal/exampleSite/config.toml .
+$ git submodule update --remote themes/hugo-theme-ava
+$ cp -a themes/hugo-theme-ava/exampleSite/. .
 ```
 
 ## New posts
