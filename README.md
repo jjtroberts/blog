@@ -13,3 +13,9 @@ $ cp -a themes/hugo-theme-ava/exampleSite/. .
 ```sh
 hugo new posts/hello-world.md
 ```
+
+## Development
+```sh
+hugo server
+open http://localhost:1313
+```
