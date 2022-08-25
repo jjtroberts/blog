@@ -55,7 +55,7 @@ Note: If you encounter certificate errors running either of the above commands, 
 ## Remediation Scripts
 Most oscap findings will have remediation scripts in the XML schema (e.g. ssg-rhel8-ds.xml) with a system key value of `urn:xccdf:fix:script:sh` but I often find it easier to search within the HTML (for example: https://static.open-scap.org/ssg-guides/ssg-rhel8-guide-rht-ccp.html )
 
-Normally I will use a slightly altered version of the remediation script to find the files triggering the finding, and then examine those file for ownership and/or permission issues so I can better understand how my Dockerfile instructions resulted in oscap findings. Did I chmod 777 when I shouldn't have? Did I chown system libs for a user other than root? Did I lay down files from a tarball without examining what ownership and permission settings I was inheriting?
+Normally I will use a slightly altered version of the remediation script to find the files triggering the finding, and then examine those files for ownership and/or permission issues so I can better understand how my Dockerfile instructions resulted in oscap findings. Did I chmod 777 when I shouldn't have? Did I chown system libs for a user other than root? Did I lay down files from a tarball without examining what ownership and permission settings I was inheriting?
 
 ## Permissions
 
