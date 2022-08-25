@@ -7,7 +7,8 @@ image: "/images/the-stig.jpeg"
 ---
 
 # Overview
-In the course of our duties at Platform 1 when hardening images, the scanners will output CCEs indicating a STIG failure. When attempting to remediate OpenSCAP findings it is less than optimal to have to commit code and wait for all of the CI pipeline steps before scanning and subsequent failure. Instead, wouldn't it be great if you could perform OpenSCAP scans in a local container and quickly iterate before pushing your changes?
+In the course of our duties at Platform 1 when hardening images, the scanners will output CCEs indicating a STIG failure. When attempting to remediate OpenSCAP findings it is less than optimal to have to commit code and wait for all of the CI pipeline steps before scanning and subsequent failure.
+What if you don't have an RHEL license or don't want to bother standing up a RHEL/Oracle Linux/Centos host so you can use `oscap-podman`. Instead, wouldn't it be great if you could perform OpenSCAP scans in a local container and quickly iterate before pushing your changes?
 
 For the purpose of this article I'll use UBI8.
 
